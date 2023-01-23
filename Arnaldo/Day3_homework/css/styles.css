@@ -1,0 +1,17 @@
+.container {
+    background-color: bisque;
+}
+
+.wrapper {
+    background-color: goldenrod;
+}
+
+.container1 {
+    display: flex;
+    margin: 5px;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
