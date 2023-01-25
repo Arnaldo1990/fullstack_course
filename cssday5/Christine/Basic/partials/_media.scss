@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+  body {
+    background-color: $bgTablet;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: $bgMobile;
+  }
+}
