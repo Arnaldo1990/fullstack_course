@@ -1,13 +1,19 @@
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 901px) and (max-width: 1200px) {
   body {
     background-color: $bgTablet;
     div {
       @include changeCols(3,1fr);
+      background: black;
+      border: 1.5rem solid black;
+    }
+    h1 {
+      color: white;
+      text-shadow: 1px 1px black;
     }
   }  
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 501px) and (max-width: 900px) {
   body {
     background-color: $bgTablet;
     div {
@@ -22,6 +28,11 @@
     div {
       @include changeCols(1,1fr);
       border: 1rem solid black;
+      background: black;
+    }
+    h1 {
+      color: white;
+      text-shadow: 1px 1px black;
     }
   }
 }

@@ -5,9 +5,39 @@
   box-sizing: border-box;
 }
 
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../assets/bg1.jpg);
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+}
+nav a:hover {
+  color: black;
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+#logo {
+  font-size: 48px;
+  transition: all 0.5s ease;
+  margin-top: -15px;
+}
+#logo:hover {
+  transform: scale(1.4);
+}
+
 body {
   background-color: rgb(244, 204, 204);
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 h1 {
@@ -23,8 +53,8 @@ div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  background: black;
-  border: 1.5rem solid black;
+  background: white;
+  border: 1.5rem solid white;
 }
 div img {
   width: 100%;
@@ -35,15 +65,21 @@ div img {
      object-position: top;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 901px) and (max-width: 1200px) {
   body {
     background-color: rgb(185, 228, 239);
   }
   body div {
     grid-template-columns: repeat(3, 1fr);
+    background: black;
+    border: 1.5rem solid black;
+  }
+  body h1 {
+    color: white;
+    text-shadow: 1px 1px black;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 501px) and (max-width: 900px) {
   body {
     background-color: rgb(185, 228, 239);
   }
@@ -58,5 +94,10 @@ div img {
   body div {
     grid-template-columns: repeat(1, 1fr);
     border: 1rem solid black;
+    background: black;
+  }
+  body h1 {
+    color: white;
+    text-shadow: 1px 1px black;
   }
 }/*# sourceMappingURL=styles.css.map */
