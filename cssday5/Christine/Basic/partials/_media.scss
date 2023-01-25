@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: $bgTablet;
+    div {
+      @include changeCols(3,1fr);
+    }
+  }  
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color: $bgTablet;
+    div {
+      @include changeCols(2,1fr);
+    }
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: $bgMobile;
+    div {
+      @include changeCols(1,1fr);
+      border: 1rem solid black;
+    }
+  }
+}
