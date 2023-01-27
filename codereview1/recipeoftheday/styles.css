@@ -1,0 +1,29 @@
+body {
+  color: silver;
+  font-size: 500%;
+  background-image: url(https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932__340.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+nav a {
+  font-size: 15px;
+  color: yellowgreen;
+}
+
+.nav a:hover {
+  background-color: rgb(244, 238, 238);
+}
+
+h3 {
+  color: orange;
+}
+
+.content {
+  text-align: center;
+}
+
+hr {
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    text-align: end;
+}
+
+.section1 {
+    font-weight: bold;
+    font-size: 300%;
+    color: aquamarine;
+    text-align: center;
+}
+
+.section1:hover {
+    background-color: rgb(0, 221, 255);
+    text-align: center;
+}
+
+.glass {
+    width: 20px;
+    position: absolute;
+    top: 65px;
+    left: 1500px;
+}
+
+.nav {
+    text-align: center;
+    background-color: yellowgreen;
+    font-size: 200%;
+    /* display: inline-block; */
+}
+
+.nav a:hover {
+    background-color: rgb(244, 238, 238);
+}
+
+.div column {
+    /* width: 30%; */
+    border: 5px solid black;
+    /* display: inline-block; */
+}
+
+div.column img {
+    width: 100%;
+    position: relative;
+}
+
+.name1 {
+    position: absolute;
+    top: 500px;
+    right: 500px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 100px;
+}
+
+.overlay-title1 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title2 {
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title3 {
+    position: absolute;
+    top: 150px;
+    left: 1300px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title4 {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title5 {
+    position: absolute;
+    top: 550px;
+    left: 650px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title6 {
+    position: absolute;
+    top: 550px;
+    left: 1300px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title7 {
+    position: absolute;
+    top: 975px;
+    left: 100px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title8 {
+    position: absolute;
+    top: 975px;
+    left: 700px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.overlay-title9 {
+    position: absolute;
+    top: 975px;
+    left: 1300px;
+    color: white;
+    font-size: large;
+    background-color: yellowgreen;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+}
+
+@media screen and (min-width: 200px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto, 1fr;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width:769px) {
+    .container {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
