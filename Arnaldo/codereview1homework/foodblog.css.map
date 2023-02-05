@@ -1,1 +1,1 @@
-{"version":3,"sources":["foodblog.scss"],"names":[],"mappings":"AAAQ,gFAAA","file":"foodblog.css"}
+{"version":3,"sources":["foodblog.scss","foodblog.css"],"names":[],"mappings":"AAAQ,gFAAA;AAEJ;EACI,aAAA;EACA,8BAAA;EACA,mBAAA;ACAR;ADCQ;EACI,mCAAA;ACCZ","file":"foodblog.css"}
