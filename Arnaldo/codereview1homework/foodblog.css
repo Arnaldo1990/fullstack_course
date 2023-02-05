@@ -5,11 +5,17 @@
   box-sizing: border-box;
 }
 
+a,
+a:active {
+  text-decoration: none;
+  color: yellowgreen;
+}
+
 header .topnavbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
 }
 header .topnavbar h1 {
   font-family: "Sassy Frass", cursive;
@@ -21,4 +27,8 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+header .line {
+  height: 1px;
+  background-color: black;
 }/*# sourceMappingURL=foodblog.css.map */
